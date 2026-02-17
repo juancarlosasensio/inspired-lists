@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/JCA/code/inspired-list log --oneline -10)",
+      "Bash(git -C /Users/JCA/code/inspired-list branch:*)",
+      "Bash(git -C /Users/JCA/code/inspired-list status)",
+      "Bash(git -C /Users/JCA/code/inspired-list diff config/boot.rb)",
+      "Bash(find:*)",
+      "WebFetch(domain:rubygems.org)"
+    ]
+  }
+}
